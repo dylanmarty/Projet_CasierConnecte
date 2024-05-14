@@ -1,0 +1,13 @@
+
+{
+    "password_mismatch": "La confirmation du mot de passe ne correspond pas.",
+    "confirm_password": "Confirmez le mot de passe",
+    "forgot_your_password": "Mot de passe oublié ?",
+    "reset_password": "Réinitialiser le mot de passe",
+    "send_password_reset_link": "Envoyer le lien de réinitialisation du mot de passe",
+    "verify_email": "Vérifiez votre adresse e-mail",
+    "register": "S'inscrire",
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "These credentials do not match our records.": "Ces identifiants ne correspondent pas à nos enregistrements."
+}
