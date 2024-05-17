@@ -23,7 +23,6 @@
                                     <div class="mt-2" style="font-weight: bold; color: {{ $materiel->etat === 'Disponible' ? 'green' : 'red' }};">{{ $materiel->etat }}</div>
                                 @endforeach
                                 <!-- Fin de la boucle -->
-
                             </td>
                         @endif
                     @endforeach
