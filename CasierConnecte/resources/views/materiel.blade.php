@@ -66,7 +66,6 @@
             </select>
             &emsp;
             <a href="familleMateriel">Cliquez ici pour aller sur la page de gestion des familles de materiel</a>
-
         </div>
         &emsp;
         <div class="btn-group d-flex mb-3 " role="group">

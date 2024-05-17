@@ -34,14 +34,14 @@
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1">date de naissance</span>
                             <input id="naissance" name="naissance" type="nom" class="form-control"
-                                placeholder="date de naissance format xx/xx/xxxx"
+                                placeholder="format JJ/MM/AAAA"
                                 pattern="^\d{2}\/\d{2}\/\d{4}$" required />
                         </div>
 
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1">Numero de telephone</span>
                             <input id="numTelephone" name="numTelephone" type="nom" class="form-control"
-                                placeholder="Numero de telephone (10 chiffres)"pattern="^\d{10}$" required>
+                                placeholder="10 chiffres"pattern="^\d{10}$" required>
                         </div>
 
                         <div class="input-group mb-3">

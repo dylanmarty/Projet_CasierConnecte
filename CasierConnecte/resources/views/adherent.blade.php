@@ -131,7 +131,7 @@
                 <div class="modal-content">
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title">modifier un adherent</h4>
+                        <h4 class="modal-title">Modifier un adherent</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
                     <form action="updateAdherent/{{ $adherent->id }}" method="POST">

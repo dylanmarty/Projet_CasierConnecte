@@ -14,8 +14,10 @@
             Ajouter une famille de materiel</button>
         &emsp;
         <button type="button" data-bs-toggle="modal" data-bs-target="#modalDeleteToutesLesFamilles">
-            Supprimer tout les données des familles de materiel</button>
+            Supprimer toutes les données des familles de materiel</button>
         &emsp;
+    </div>
+    <div>
         <a href="materiel">Cliquez ici pour retourner a la page de gestion des materiels </a>
     </div>
     <div class="bg-light" style="border : solid black 1px; margin-bottom:5%;">

@@ -22,7 +22,6 @@
                         <tr>
                             <th>Nom</th>
                             <th>email</th>
-                            <th>password</th>
                             <th>droit</th>
                             <th>Action</th>
                         </tr>
@@ -33,7 +32,6 @@
                             <tr>
                                 <td>{{ $user->name }}</td>
                                 <td>{{ $user->email }}</td>
-                                <td>{{ $user->password }}</td>
                                 <td>{{ $user->droit }}</td>
                                 <td>
                                     <!-- bouton modifier -->

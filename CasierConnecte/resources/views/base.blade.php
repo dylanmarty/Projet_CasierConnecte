@@ -139,6 +139,7 @@
                         @else
                             <!-- L'utilisateur n'est pas connecté, afficher les liens de connexion et d'enregistrement -->
                             <a href="{{ route('login') }}" class="connexion">Se connecter</a>
+                            <a href="{{ route('register') }}" class="connexion">Créer son compte</a>
                         @endauth
                     </div>
                 </div>

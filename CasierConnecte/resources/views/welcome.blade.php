@@ -12,7 +12,9 @@
                     @foreach ($casiers as $casier)
                         @if ($casier->id >= 1 && $casier->id <= 3)
                             <td class="p-1 text-center align-middle bg-light" style="width: 33.33%;">
+                                <!-- Contenu du casier -->
                                 <div class="mt-2" style="font-weight: bold">{{ $casier->name }}</div>
+                                <!-- Pour chaque casier, dire qu'il faut un nom du matériel, une image et sa disponibilité, puis l'afficher -->
                                 @foreach ($casier->materiels as $materiel)
                                     <div class="mt-2">
                                         <p style="margin-top:2%;">{{ $materiel->nom }}</p>
@@ -29,7 +31,6 @@
                     @foreach ($casiers as $casier)
                         @if ($casier->id == 4)
                             <td class="p-1 text-center align-middle bg-light" style="width: 33.33%;">
-                                <!-- Contenu du casier -->
                                 <div class="mt-2" style="font-weight: bold">{{ $casier->name }}</div>
                                 @foreach ($casier->materiels as $materiel)
                                     <div class="mt-2">
