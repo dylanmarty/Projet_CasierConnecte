@@ -1,7 +1,10 @@
-@extends('base')
-@include('modalMateriel')
-@section('title', 'Gestion des matériels')
+<!-- Auteur : Marty Dylan -->
 
+@extends('base') <!-- Utilisation du modèle de base -->
+
+@include('modalMateriel') <!-- Inclusion du modal pour les matériels -->
+
+@section('title', 'Gestion des matériels') <!-- Titre de la page -->
 
 @section('content')
 
