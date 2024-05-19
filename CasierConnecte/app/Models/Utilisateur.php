@@ -1,5 +1,7 @@
 <?php
 
+// Auteur : Dylan Marty
+
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -11,6 +13,4 @@ class Utilisateur extends Authenticatable // Étendre la classe Authenticatable
 
     // Définir les colonnes remplissables
     protected $fillable = ['identifiant', 'password', 'email'];
-
-
 }
