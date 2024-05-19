@@ -1,5 +1,7 @@
 <?php
 
+// Auteur : Dylan Marty
+
 namespace App\Services;
 
 use phpseclib3\Net\SSH2;
@@ -13,7 +15,7 @@ class SmsService
         $this->ssh = new SSH2(env('RASPBERRY_PI_IP'));
 
         if (!$this->ssh->login(env('PI_USERNAME'), env('PI_PASSWORD'))) {
-            throw new \Exception('Failed to connect via SSH');
+            throw new \Exception('Échec de la connexion via SSH');
         }
     }
 
