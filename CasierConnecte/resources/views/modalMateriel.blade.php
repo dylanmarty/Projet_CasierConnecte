@@ -1,4 +1,6 @@
-   <!-- Fenêtre modale pour l'ajout d une famille -->
+<!-- Auteur : Marty Dylan -->
+
+<!-- Fenêtre modale pour l'ajout d une famille -->
 
    <!-- The Modal -->
    <div class="modal" id="modalAJoutFamille">
