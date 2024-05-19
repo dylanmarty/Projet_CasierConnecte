@@ -1,10 +1,10 @@
 <!-- Auteur : Marty Dylan -->
 
-@extends('base')
+@extends('base') <!-- Utilisation du modèle de base -->
 
-@include('modalAdherent')
+@include('modalAdherent') <!-- Inclusion du modal pour les adhérents -->
 
-@section('title', 'Gestion des adherents')
+@section('title', 'Gestion des adherents') <!-- Titre de la page -->
 
 @section('content')
 
