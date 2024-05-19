@@ -1,6 +1,8 @@
-<!-- Inclusion du header et du footer-->
-@extends('base')
-@section('title', 'Visualisation des casiers')
+<!-- Auteur : Benjamin Crespeau -->
+
+@extends('base')<!-- Utilisation du layout de base -->
+
+@section('title', 'Visualisation des casiers')<!-- Définition du titre de la page -->
 
 @section('content')
     <div class="container">
