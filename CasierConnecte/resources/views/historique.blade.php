@@ -63,6 +63,7 @@
     <div class="container bg-light" style="margin-top:3%;margin-bottom:10%;;border:solid black 1px;">
         <table class="bg-light" id="adherentsTable">
             <thead>
+                <!-- Première ligne du tableau avec le nom de chaque colonne -->
                 <tr>
                     <th class="bg-light">Nom</th>
                     <th class="bg-light">Prenom</th>
