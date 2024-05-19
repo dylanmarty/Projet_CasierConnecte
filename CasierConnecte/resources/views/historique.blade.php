@@ -1,3 +1,5 @@
+<!-- Auteur : Benjamin Crespeau -->
+
 @section('title', 'Historique') <!-- Définition du titre de la page -->
 
 @extends('base') <!-- Utilisation du layout de base -->
