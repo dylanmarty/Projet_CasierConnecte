@@ -1,3 +1,5 @@
+<!-- Auteur : Marty Dylan -->
+
 @extends('base')
 @include('modalMateriel')
 @section('title', 'Gestion des matériels')
