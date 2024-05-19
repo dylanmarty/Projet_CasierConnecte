@@ -1,4 +1,6 @@
-    <!-- Fenêtre modale pour l'ajout d'adhérent -->
+<!-- Auteur : Marty Dylan -->
+
+<!-- Fenêtre modale pour l'ajout d'adhérent -->
 
     <!-- The Modal -->
     <div class="modal" id="modalAJoutAdherent">
