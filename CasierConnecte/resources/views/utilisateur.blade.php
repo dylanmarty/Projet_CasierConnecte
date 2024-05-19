@@ -1,6 +1,8 @@
-<!-- Inclusion du header et du footer-->
-@extends('base')
-@section('title', 'Gestion des utilisateurs')
+<!-- Auteur : Marty Dylan -->
+
+@extends('base') <!-- Utilisation du layout de base -->
+
+@section('title', 'Gestion des utilisateurs')<!-- Définition du titre de la page -->
 
 @section('content')
 
