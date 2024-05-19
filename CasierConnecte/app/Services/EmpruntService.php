@@ -1,5 +1,7 @@
 <?php
 
+// Auteur : Dylan Marty
+
 namespace App\Services;
 
 use App\Models\Emprunt;
@@ -28,11 +30,10 @@ class EmpruntService
 
             if ($dateRetourPrevue->isPast() && $emprunt->date_retour === null) {
                 $phoneNumber = $emprunt->adherent->num_telephone;
-                $materielNom = $emprunt->adherent->name;
+                $materielNom = $emprunt->materiel->nom;
                 $message = 'Bonjour, vous avez oublié de rendre votre matériel : "' . $materielNom . '". Merci de le retourner dès que possible. Ceci est un message automatique. Merci de ne pas y répondre.';
                 $this->smsService->sendSms($phoneNumber, $message);
             }
         }
     }
-
 }
