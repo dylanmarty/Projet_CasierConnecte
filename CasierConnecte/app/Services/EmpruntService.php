@@ -38,8 +38,7 @@ class EmpruntService
                 $materielNom = $emprunt->materiel->nom;
 
                 // Crée le message SMS
-                $message = 'Bonjour, vous avez oublié de rendre votre matériel : "' . $materielNom . '".
-                Merci de le retourner dès que possible. Ceci est un message automatique. Merci de ne pas y répondre.';
+                $message = 'Bonjour, vous avez oublié de rendre votre matériel : "' . $materielNom . '".Merci de le retourner dès que possible. Ceci est un message automatique. Merci de ne pas y répondre.';
 
                 // Envoie le SMS
                 $this->smsService->sendSms($phoneNumber, $message);
