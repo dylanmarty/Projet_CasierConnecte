@@ -145,5 +145,31 @@ class MaterielController extends Controller
 
     public function deleteMateriel($id)
     {
-        // Trouver le matériel à supprimer
-        $Materiel =
+        $Materiel = Materiel::find($id);
+        $Materiel->delete();
+        $ancienCheminImage = $Materiel->image;
+        if (file_exists($ancienCheminImage)) {
+            unlink($ancienCheminImage);
+        }
+
+        return redirect('materiel');
+    }
+
+    public function deleteAllMateriel()
+    {
+        // Désactiver la vérification des clés étrangères
+        DB::statement('SET FOREIGN_KEY_CHECKS=0');
+
+        $directory = 'images/materiel';
+        Storage::deleteDirectory($directory);
+
+        Materiel::truncate();
+        Sms::truncate();
+        Emprunt::truncate();
+
+        DB::statement('SET FOREIGN_KEY_CHECKS=1');
+
+        return redirect('materiel')->with('success', 'Tous les adhérents ont été supprimés avec succès.');
+    }
+
+}

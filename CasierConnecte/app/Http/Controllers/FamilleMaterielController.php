@@ -24,10 +24,10 @@ class FamilleMaterielController extends Controller
     public function getFamille(Request $request)
     {
         // Récupérer toutes les familles de matériel
-        $famillesMateriel = Famille_materiel::all();
+        $Famille_materiel = Famille_materiel::all();
 
         // Retourner la vue 'familleMateriel' avec les données des familles de matériel
-        return view('familleMateriel', compact('famillesMateriel'));
+        return view('familleMateriel', compact('Famille_materiel'));
     }
 
     /**
