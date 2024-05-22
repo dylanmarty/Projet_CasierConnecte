@@ -1,6 +1,7 @@
 <?php
 
-// Auteur : Dylan Marty
+// Auteur : Benjamin Crespeau
+
 
 namespace App\Http\Controllers;
 
@@ -22,7 +23,7 @@ class EmpruntsController extends Controller
     {
         // Récupère tous les emprunts avec les relations 'materiel' et 'adherent'
         $emprunts = Emprunt::with(['materiel', 'adherent'])->get();
-        
+
         // Retourne la vue 'historique' avec la liste des emprunts
         return view('historique', ['emprunts' => $emprunts]);
     }
